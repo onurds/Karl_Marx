@@ -1,123 +1,97 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/script.js"></script>
+  </head>
+body{
+  font-family: "Trebuchet", Times, serif;
+  background-color:	hsl(219, 15%, 20%);
+  color: #FFF;
 }
-```
+h5 {
+    font-size: 80px;
+}
+h1 {
+  font-size: 25px
+}
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+  color: #007bff;
+}
+.well {
+  background-color:hsl(219, 15%, 18%);
+  border-color: #fff;
+  }
+strong {
+  color: rgb(51, 122, 183);
+}
+h4 {
+  color: #10BC61;
+  font-size: 24px;
+}
+.thumbnail {
+  background-color: #272C35;
+  border-color: #232830;
+}
+  <body>
+  <div class="container">
+  <div class="row">
+    <div clas="col-xs-30">
+        <div class="well">        
+    <h5 class="text-center">Karl Marx</h5>
+    <h4 class="text-center"><em>The man who changed the world by his ideas about economic systems</em></h4>
+           <div class="thumbnail">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Karl_Marx_001.jpg">
+          </div>
+          <div class="text-center"</div>   
+          <blockquote>
+        <p ><em>"Communism is for us not a state of affairs which is to be established, an ideal to which reality will have to adjust itself. We call communism the real movement which abolishes the present state of things. The conditions of this movement result from the premises now in existence."</em></p>
+    </blockquote>
+    <h3 style="margin-bottom:2.5em"><em>— The German Ideology Vol.1 Part 1</em></h3>
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+    <h4 style="margin-bottom:0.5em"><em>A short Biography of Karl Marx:</em></h4>
+    <h1 style="margin-bottom:2.5em">
+        Born in Trier to a middle-class family, Marx later studied political economy and Hegelian philosophy. As an adult, Marx became stateless and spent much of his life in London, where he continued to develop his thought in collaboration with German thinker Friedrich Engels and published various works. His two most well-known are the 1848 pamphlet The Communist Manifesto and the three-volume Das Kapital. His work has since influenced subsequent intellectual, economic and political history.
+    </h1>
+    <h4 style="margin-bottom:0.9em"><em>Timeline of Karl Marx's Life:</em></h4>
+  </div>
+    <ul>
+        <li><strong>1818</strong> - Born of middle-class Jewish parents in the Prussian city of Trier.
+        </li>
+        <li><strong>1830</strong> - Attends Trier High School.</li>
+        <li><strong>1835</strong> - Enrols in the University of Berlin, reading law, history and philosophy. Becomes a Hegelian idealist.</li>
+        <li><strong>1841</strong> - Graduates with a doctorate in philosophy.
+        </li>
+        <li><strong>1842</strong> - Moves to Cologne. Is influenced by the humanist philosophy of Ludwig Feuerbach.</li>
+        <li><strong>1843</strong> - Marries with Jenny von Westphalen. Moves to Paris. Writes Critique of Hegel’s Philosophy of Right.</li>
+        <li><strong>1844</strong> - Birth of his daughter, Jenny. Meets Friedrich Engels, the author of "The Conditions of the Working Class in England". Writes The "Paris Manuscripts".</li>
+        <li><strong>1845</strong> - Is expelled from France and moves to Brussels. Writes Theses on Feuerbach.</li>
+        <li><strong>1846</strong> - Sets up the Communist Correspondence Committee (with Engels).</li>
+        <li><strong>1847</strong> - Lectures to the German Workers' Society. Launch of the Communist League (formerly the "League of the Just") with the motto "Workers of the World Unite!". Writes The Poverty of Philosophy.</li>
+        <li><strong>1848</strong> - French revolution of 1848. Returns to France. Starts writing political pamphlets on The class struggles in France "there appeared the bold slogan of revolutionary struggle: Overthrow of the bourgeoisie! Dictatorship of the Working class!." Publishes the Communist Manifesto (written jointly with Engels) that starts with "A spectre is haunting Europe—the spectre of Communism", and ends with "Workers of the World Unite!".</li>
+        <li><strong>1849</strong> - Moves to Cologne. Writes articles in the "Neue Rheinische Zeitung".Then Moves to London.</li>
+        <li><strong>1850</strong> - Writes (with Engels) the Address to the Communist League "Their battle-cry must be: The Permanent Revolution!".</li>
+        <li><strong>1852</strong> - Writes The Eighteenth Brumaire of Louis Bonaparte.</li>
+        <li><strong>1861</strong> - Completes "Grundisse" Outlines of the Critique of Political Economy.</li>
+        <li><strong>1864</strong> - Supports the launch of the International Workingmen’s Association (the first International).</li>
+        <li><strong>1867</strong> - Publication of Das Kapital.</li>
+        <li><strong>1869</strong> - Writes A Contribution to the Critique of Political Economy.</li>
+        <li><strong>1872</strong> - Attends The Hague Congress of the First International.</li>
+        <li><strong>1875</strong> - Writes Critique of the Gotha Programme, in which he coins the slogan "from each according to his ability, to each according to his need".</li>
+        <li><strong>1881</strong> - His wife Jenny,died because of liver cancer.</li>
+        <li><strong>1883</strong> - Died as a stateless person on 14 March 1883 (age 64) at London. Bronchitis and pleurisy were the cause of his death. </li>
+    </ul>
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+    <h1><em>For further reading please refer to the <a href="https://en.wikipedia.org/wiki/Karl_Marx" >Wikipedia page </a>about him.</em></h1>
+</div>
+ </div>
+  </div>
+   </div>
+  </div>
+</body>
+</html>
