@@ -88,3 +88,8 @@ h4 {
   background-color: #272C35;
   border-color: #232830;
 }
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
