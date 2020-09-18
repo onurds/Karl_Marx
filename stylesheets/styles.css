@@ -58,6 +58,7 @@ body{
   font-family: "Trebuchet", Times, serif;
   background-color:	hsl(219, 15%, 20%);
   color: #FFF;
+  display: grid;
 }
 h5 {
     font-size: 80px;
