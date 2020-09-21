@@ -1,9 +1,23 @@
+@font-face {
+  font-family: 'Trebuchet';
+  font-weight: 1000;
+  font-style: normal;
+  src: url('../fonts/Trebuchet-regular/Trebuchet-regular.eot');
+  src: url('../fonts/Trebuchet-regular/Trebuchet-regular.eot?#iefix') format('embedded-opentype'),
+       local('Trebuchet'),
+       local('Trebuchet-regular'),
+       url('../fonts/Trebuchet-regular/Trebuchet-regular.woff2') format('woff2'),
+       url('../fonts/Trebuchet-regular/Trebuchet-regular.woff') format('woff'),
+       url('../fonts/Trebuchet-regular/Trebuchet-regular.ttf') format('truetype'),
+       url('../fonts/Trebuchet-regular/Trebuchet-regular.svg#Trebuchet') format('svg');
+}
 body{
   font-family: "Trebuchet", Times, serif;
   font-style: normal;
   background-color:	hsl(219, 15%, 20%);
   color: #FFF;
   display: grid;
+  padding:25px;
 }
 h5 {
     font-size: 80px;
@@ -11,8 +25,10 @@ h5 {
 h1 {
   font-size: 25px
 }
+h2 {
+  font-size: 15px
+}
 p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 19px;
 }
 h3 {
