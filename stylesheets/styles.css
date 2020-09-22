@@ -58,7 +58,25 @@ h4 {
   font-size: 15px;
 }
 .block {
-  width: 1400px;
+  width: 1425px;
     border: 2.5px solid white;
     padding: 10px;
+  }
+  .table {
+    color: #10BC61;
+  }
+  li span {
+    position: relative;
+    left: -35px;
+    font-size: 17px;
+  }
+  li p {
+    position: relative;
+    left: -58px;
+    font-size: 17px;
+  }
+  li h6 {
+    position: relative;
+    left: -20px;
+    font-size: 17px;
   }
