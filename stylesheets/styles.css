@@ -34,7 +34,6 @@ h3 {
 }
 .well {
   background-color:hsl(219, 15%, 18%);
-  border-color: #fff;
   }
 strong {
   color: rgb(51, 122, 183);
@@ -59,7 +58,7 @@ h4 {
 }
 .block {
   width: 1425px;
-    border: 2.5px solid white;
+    border: 2.5px solid rgb(80, 127, 255);
     padding: 10px;
   }
   .table {
@@ -80,3 +79,16 @@ h4 {
     left: -20px;
     font-size: 17px;
   }
+  table {
+    border-style: ridge ridge ;
+    border-collapse: collapse;
+    border: 5px ridge  rgb(128, 128, 128);
+    border-width: thick thick 5px;
+    padding: 10px;
+  }
+ td {
+   border: 4px ridge rgb(128, 128, 128);
+ }
+ strong {
+  color: #007bff;
+ }
