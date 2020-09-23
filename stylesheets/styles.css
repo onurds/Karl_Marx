@@ -65,6 +65,9 @@ h4 {
   .table {
     color: #10BC61;
   }
+  h2 ul li {
+    margin-bottom: 0.9em;
+  }
   li span {
     position: relative;
     left: -35px;
@@ -90,3 +93,19 @@ h4 {
  strong {
   color: #007bff;
  }
+ mark {
+  background-color: #4CAF50;
+  color: black;
+  
+ }
+ hr {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 0.1px;
+  color:gray;
+  background-color:gray
+}
